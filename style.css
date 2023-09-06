@@ -1,0 +1,51 @@
+/* =========================
+common css styles 
+============================*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* header area */
+header{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+.logo h2{
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin-right: 34px;
+}
+.menu li a{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.menu li i{
+    font-size: 16px;
+    font-weight: 600;
+}
