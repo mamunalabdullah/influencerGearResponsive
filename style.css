@@ -101,7 +101,57 @@ hr{
     padding: 31px 62px;
 }
 
-/* responsive for mobile device  */
+/* ====================== collection of product area ================================ */
+.collection-area{
+    padding: 0 196px;
+}
+.area-title{
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+}
+.products{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.product{
+    padding: 17px;
+    box-shadow: 10px 10px 25px #5E6366;
+    border-radius: 10px;
+}
+.product-title{
+    margin: 10px 0;
+    font-size: 28px;
+    color: #18191F;
+}
+.product-price{
+    color: #000000b8;
+    font-size: 24px;
+}
+.ratings{
+    margin: 10px 0;
+}
+.ratings i{
+    color: orange;
+}
+.ratings span{
+    font-size: 14px;
+    color: #5E6366;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.product-feature p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #787885;
+    margin: 8px 0;
+}
+
+
+
+/* ===================responsive for mobile device =============================== */
 
 @media screen and (max-width: 576px) {
     .banner{
@@ -128,7 +178,7 @@ hr{
     }
 }
 
-/* responsive for tablet device */
+/* =======================responsive for tablet device =============================*/
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .banner{
