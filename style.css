@@ -140,14 +140,92 @@ hr{
 .ratings span{
     font-size: 14px;
     color: #5E6366;
-    font-weight: 400;
+    font-weight: 800;
     margin-left: 15px;
 }
 .product-feature p{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 800;
     color: #787885;
     margin: 8px 0;
+}
+.collection-btn{
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #fff;
+    border: none;
+    position: absolute;
+    right: 15%;
+}
+
+/*================================ featured area ============================ */
+.featured{
+    padding: 165px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.featured-img, .featured-content{
+    width: 50%;
+}
+.featured-title{
+    font-size: 38px;
+    font-weight: 800;
+    color: #0A0826;
+}
+.featured-description{
+    font-size: 16px;
+    font-weight: 800;
+    color: #6C6C6C;
+    margin: 10px 0;
+}
+.featured-btn{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #E02C6D;
+    padding: 10px 15px;
+    border: none;
+}
+
+footer{
+    padding: 50px 0;
+    background-color: #0A0826;
+    text-align: center;
+}
+.footer{
+    width: 20%;
+    margin: 0 auto;
+}
+footer h4{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 800;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 800;
+    color: #D9DBE1;
+    margin: 10px 0;
+}
+.social ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.social ul li{
+    margin-right: 20px;
+}
+.social ul li a{
+    font-size: 20px;
+    color: #fff;
+    background-color: #3A3A3A;
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
 }
 
 
@@ -184,6 +262,25 @@ hr{
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
     }
+    .collection-btn{
+        right: 40%;
+    }
+    /* featured area */
+    .featured{
+        padding: 50px 0;
+        flex-direction: column-reverse;
+    }
+    .featured-img{
+        width: 80%;
+    }
+    .featured-content{
+        width: 70%;
+        margin: 20px 0;
+    }
+    .featured-content{
+        text-align: center;
+    }
+    
     
     header{
         display: none;
@@ -221,6 +318,26 @@ hr{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 15px;
         align-items: center;
+    }
+    .collection-btn{
+        right: 40%;
+    }
+
+    /* featured area */
+    .featured{
+        padding: 50px 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .featured-img{
+        width: 60%;
+    }
+    .featured-content{
+        width: 70%;
+        margin: 20px 0;
+    }
+    .featured-content{
+        text-align: center;
     }
     header{
         display: none;
