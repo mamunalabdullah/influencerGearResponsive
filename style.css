@@ -20,14 +20,13 @@ img{
     height: auto;
 }
 
-/* header area */
+/* =================header area =======================*/
 header{
-    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 96px;
+    padding: 0 132px 0 120px;
+    margin-top: 85px;
 }
 .logo h2{
     font-size: 24px;
@@ -48,4 +47,97 @@ header{
 .menu li i{
     font-size: 16px;
     font-weight: 600;
+}
+
+/* =================banner section  ==========================*/
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 120px 0 132px;
+}
+.banner-content{
+    width: 40%;
+}
+.banner-title{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.banner-description{
+    font-size: 16px;
+    color: #3A3A3A;
+    margin: 16px 0;
+}
+.banner-btn{
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    font-weight: 400;
+    border-radius: 40px;
+}
+.banner-btn i{
+    margin-left:8px ;
+}
+.banner-image{
+    width: 30%;
+    background-image: url(images/Circle\ design.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* responsive for mobile device  */
+
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+    .banner-content{
+        width: 70%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-title{
+        font-size: 28px;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
+    .banner-image{
+        width: 50%;
+    }
+    header{
+        display: none;
+    }
+}
+
+/* responsive for tablet device */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+    .banner-content{
+        width: 70%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .banner-title{
+        font-size: 28px;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
+    .banner-image{
+        width: 50%;
+    }
+    header{
+        display: none;
+    }
 }
